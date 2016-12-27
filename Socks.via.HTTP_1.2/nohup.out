@@ -1,0 +1,64 @@
+Socks via HTTP v1.2 Client part starting...
+20/12/2016 04:23:28 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+20/12/2016 04:23:28 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in SocksConnectionServer : java.net.BindException: Permission denied (Bind failed)
+20/12/2016 04:23:28 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in GenericConnectionServer : java.net.BindException: Permission denied (Bind failed)
+Socks via HTTP v1.2 Client part starting...
+20/12/2016 04:29:44 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+20/12/2016 04:29:44 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in SocksConnectionServer : java.net.BindException: Permission denied (Bind failed)
+20/12/2016 04:29:44 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in GenericConnectionServer : java.net.BindException: Permission denied (Bind failed)
+Socks via HTTP v1.2 Client part starting...
+20/12/2016 04:31:22 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+Exception in thread "Thread-1" java.lang.IllegalArgumentException: Port value out of range: -1923273512
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at socksviahttp.client.engine.SocksConnectionServer.init(SocksConnectionServer.java:44)
+	at socksviahttp.client.engine.ConnectionServer.run(ConnectionServer.java:90)
+20/12/2016 04:31:22 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in GenericConnectionServer : java.net.BindException: Permission denied (Bind failed)
+Socks via HTTP v1.2 Client part starting...
+20/12/2016 04:32:41 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+20/12/2016 04:32:41 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in SocksConnectionServer : java.net.BindException: Permission denied (Bind failed)
+20/12/2016 04:32:41 - ERROR : <CLIENT> Unexpected Exception while creating ServerSocket in GenericConnectionServer : java.net.BindException: Permission denied (Bind failed)
+Socks via HTTP v1.2 Client part starting...
+20/12/2016 05:12:01 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+20/12/2016 05:13:02 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+20/12/2016 05:14:03 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+20/12/2016 05:14:51 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+20/12/2016 05:15:27 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+Socks via HTTP v1.2 Client part starting...
+26/12/2016 20:56:52 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+26/12/2016 20:58:51 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+26/12/2016 21:01:21 - WARN  : <CLIENT> Incoming generic connection on localport 63306 refused from IP 127.3.59.129
+Socks via HTTP v1.2 Client part starting...
+26/12/2016 21:13:30 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+26/12/2016 21:13:48 - INFO  : <CLIENT> Incoming generic connection on localport 63306 accepted from IP 127.3.59.129
+26/12/2016 21:13:48 - INFO  : <CLIENT> An application asked a connection to 127.12.9.130:3306
+26/12/2016 21:13:48 - INFO  : <CLIENT> SERVER1, create a connection to 127.12.9.130:3306
+26/12/2016 21:13:48 - INFO  : <SERVER1> Connection created : USER1_conn_1
+26/12/2016 21:13:48 - INFO  : <CLIENT> Application closed the connection
+26/12/2016 21:13:48 - INFO  : <CLIENT> SERVER1, close the connection USER1_conn_1
+26/12/2016 21:13:48 - INFO  : <SERVER1> As CLIENT asked, connection closed : USER1_conn_1
+26/12/2016 21:13:48 - INFO  : <CLIENT> Disconnecting application
+26/12/2016 21:14:26 - INFO  : <CLIENT> Incoming generic connection on localport 63306 accepted from IP 127.3.59.129
+26/12/2016 21:14:26 - INFO  : <CLIENT> An application asked a connection to 127.12.9.130:3306
+26/12/2016 21:14:26 - INFO  : <CLIENT> SERVER1, create a connection to 127.12.9.130:3306
+26/12/2016 21:14:26 - INFO  : <SERVER1> Connection created : USER1_conn_2
+26/12/2016 21:14:26 - INFO  : <CLIENT> Application closed the connection
+26/12/2016 21:14:26 - INFO  : <CLIENT> SERVER1, close the connection USER1_conn_2
+26/12/2016 21:14:26 - INFO  : <SERVER1> As CLIENT asked, connection closed : USER1_conn_2
+26/12/2016 21:14:26 - INFO  : <CLIENT> Disconnecting application
+26/12/2016 21:16:18 - INFO  : <CLIENT> Incoming generic connection on localport 63306 accepted from IP 127.3.59.129
+26/12/2016 21:16:18 - INFO  : <CLIENT> An application asked a connection to 127.12.9.130:3306
+26/12/2016 21:16:18 - INFO  : <CLIENT> SERVER1, create a connection to 127.12.9.130:3306
+26/12/2016 21:16:18 - INFO  : <SERVER1> Connection created : USER1_conn_3
+26/12/2016 21:18:16 - INFO  : <SERVER1> Remote server closed the connection : USER1_conn_3
+26/12/2016 21:18:16 - INFO  : <CLIENT> Disconnecting application
+Socks via HTTP v1.2 Client part starting...
+26/12/2016 21:21:08 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
+26/12/2016 21:22:23 - INFO  : <CLIENT> Incoming generic connection on localport 63306 accepted from IP 127.3.59.129
+26/12/2016 21:22:23 - INFO  : <CLIENT> An application asked a connection to 127.12.9.130:3306
+26/12/2016 21:22:23 - INFO  : <CLIENT> SERVER1, create a connection to 127.12.9.130:3306
+26/12/2016 21:22:25 - INFO  : <SERVER1> Connection created : USER1_conn_4
+26/12/2016 21:22:47 - INFO  : <SERVER1> Remote server closed the connection : USER1_conn_4
+26/12/2016 21:22:47 - INFO  : <CLIENT> Disconnecting application
+Socks via HTTP v1.2 Client part starting...
+26/12/2016 21:25:20 - INFO  : Socks via HTTP v1.2 by Florent CUETO & Sebastien LEBRETON <socksviahttp@cqs.dyndns.org>
